@@ -14,8 +14,8 @@ try{
     connectDB = new MongoClient(url, options).connect()
   }
 }catch(e){
-    console.log("db연결 에러",e)
+    console.log("db연결 에러", e)
 }
 
   
-  export { connectDB }
+export { connectDB }
