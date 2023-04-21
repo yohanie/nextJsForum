@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-    <div></div>
+    <div>하이</div>
   )
 }
